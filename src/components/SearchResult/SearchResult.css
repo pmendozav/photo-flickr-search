@@ -1,0 +1,62 @@
+
+.spin {
+    display: block;
+    margin: 0 auto;
+    border-color: red;
+    align-items: center;
+}
+.result {
+    padding-top: 20px;
+    padding-right: 0px;
+}
+
+.image {
+    width: 100%;
+}
+
+.author {
+    padding-left: 5px;
+    font-weight: bold;
+    color: black;
+}
+
+.tags {
+    padding-top: 10%;
+    padding-left: 0px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+    
+.tag {
+    word-wrap: break-word;
+    display: inline-block;
+    color: rgb(120, 120, 120);
+    background-color: white;
+    border: 2px solid rgb(120, 120, 120);
+    border-radius: 5px;
+    min-width: 4em;
+    max-width: 8em;
+    max-height: 2em;
+    overflow: hidden;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-left:0.25em;
+    margin-right:0.25em;
+    margin-top:0.25em;
+    margin-bottom: 0.25em;
+    transition: color 0.25s ease-in,
+        background-color 0.25s ease-in,
+        transform 0.3s ease-out;
+}
+
+.tag:hover{
+    cursor: pointer;
+    color: white;
+    background-color: rgb(120, 120, 120);
+}
+.tag:active{
+    transform: scale(0.95);
+}
+  

@@ -1,0 +1,16 @@
+.logo-right {
+    color: white;
+    font-size: 32px;
+}
+  
+.logo-left {
+    color: rgb(150, 150, 150);
+    font-size: 32px;
+}
+  
+.logo-complement {
+    padding-left: 10px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-size: 14px;
+}
